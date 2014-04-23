@@ -1,7 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## These two functions will create a cached matrix, then set and get its mean
 
-## Write a short comment describing this function
+## This function will create a cached matrix
 
 makeCacheMatrix <- function(x = matrix()) 
 {
@@ -20,7 +19,7 @@ makeCacheMatrix <- function(x = matrix())
 }
 
 
-## Write a short comment describing this function
+## This function will calculate the mean for the cached matrix
 
 cacheSolve <- function(x, ...)
   {
